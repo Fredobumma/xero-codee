@@ -7,6 +7,7 @@
 
 /* Font from google */
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 
 * {
 	font: inherit;
@@ -14,9 +15,10 @@
 }
 
 :root {
+	color: #3d3d3d;
 	font-family: "Epilogue", sans-serif;
-	line-height: 1.5;
 	font-weight: 400;
+	line-height: 1.5;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -25,9 +27,11 @@
 }
 
 body {
+	overflow-x: hidden;
 	margin: 0;
-	min-width: 280px;
+	min-width: fit-content;
 	min-height: 100dvh;
+	padding: 1rem;
 }
 
 h1,

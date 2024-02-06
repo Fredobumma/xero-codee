@@ -20,8 +20,6 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
 		"paths": {
-			"appComponents": ["./src/appComponents/*"],
-			"assets": ["./src/assets/*"],
 			"src/*": ["./src/*"]
 		}
 	},
