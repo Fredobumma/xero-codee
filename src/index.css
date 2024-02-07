@@ -26,14 +26,6 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-body {
-	overflow-x: hidden;
-	margin: 0;
-	min-width: fit-content;
-	min-height: 100dvh;
-	padding: 1rem;
-}
-
 h1,
 h2,
 h3,
