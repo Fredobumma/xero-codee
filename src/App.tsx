@@ -1,10 +1,10 @@
-import { CallToAction } from "./sections";
+import { Footer } from "./sections";
 import "./App.css";
 
 function App() {
 	return (
 		<>
-			<CallToAction />
+			<Footer />
 		</>
 	);
 }
