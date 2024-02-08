@@ -1,10 +1,10 @@
-import { Footer } from "./sections";
+import { Teams } from "./sections";
 import "./App.css";
 
 function App() {
 	return (
 		<>
-			<Footer />
+			<Teams />
 		</>
 	);
 }
