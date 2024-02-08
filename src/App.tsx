@@ -1,10 +1,10 @@
-import { Teams } from "./sections";
+import { Hero } from "./sections";
 import "./App.css";
 
 function App() {
 	return (
 		<>
-			<Teams />
+			<Hero />
 		</>
 	);
 }

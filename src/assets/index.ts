@@ -4,6 +4,8 @@ import call_to_action_webp from "./call_to_action_x2.webp";
 import call_to_action_webp_x2 from "./call_to_action_x2.webp";
 import driver from "./driver.svg";
 import facebook from "./facebook.png";
+import hero_png from "./hero.png";
+import hero_webp from "./hero.webp";
 import linkedin from "./linkedin.png";
 import logo from "./logo.png";
 import monitor from "./monitor.svg";
@@ -19,6 +21,8 @@ export {
 	call_to_action_webp_x2,
 	driver,
 	facebook,
+	hero_png,
+	hero_webp,
 	linkedin,
 	logo,
 	monitor,
