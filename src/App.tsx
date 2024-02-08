@@ -1,10 +1,10 @@
 import "./App.css";
-import { NavBar } from "./sections";
+import { ChooseUs } from "./sections";
 
 function App() {
 	return (
 		<>
-			<NavBar />
+			<ChooseUs />
 		</>
 	);
 }
