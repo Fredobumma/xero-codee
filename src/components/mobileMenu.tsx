@@ -5,11 +5,20 @@ import {
 	SheetTrigger,
 } from "components/ui/sheet";
 import { MenuIcon } from "lucide-react";
+import { Dispatch, SetStateAction } from "react";
 
 import { SwitchLang } from "src/components";
 
-const Menu = ({ links }: { links: string[] }) => (
-	<div className="grid gap-2 mt-4 lg:hidden">
+const Menu = ({
+	links,
+	position,
+	setPosition,
+}: {
+	links: string[];
+	position: string;
+	setPosition: Dispatch<SetStateAction<string>>;
+}) => (
+	<div className="lg:hidden">
 		<Sheet key="right">
 			<SheetTrigger className="cursor-pointer" asChild>
 				<MenuIcon color="#292D32" />
@@ -33,7 +42,7 @@ const Menu = ({ links }: { links: string[] }) => (
 				</SheetClose>
 
 				<div className="flex flex-col items-center gap-y-3.5">
-					<SwitchLang />
+					<SwitchLang position={position} setPosition={setPosition} />
 					<SheetClose asChild>
 						<button className="bg-[#3171DE] rounded-[42px] font-medium text-white py-[15px] px-9 md:py-[18px] md:px-[25px] md:rounded-[50px]">
 							Schedule a Call

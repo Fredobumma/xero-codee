@@ -1,7 +1,12 @@
+"use client";
+
+import { useState } from "react";
+
 import { logo } from "src/assets";
 import { Menu, SwitchLang } from "src/components";
 
 const NavBar = () => {
+	const [position, setPosition] = useState("EN");
 	const navLinks = ["Home", "About us", "Services", "Contact Us"];
 
 	return (
@@ -11,7 +16,7 @@ const NavBar = () => {
 					<img src={logo} alt="App logo" width="auto" height="auto" />
 				</a>
 			</figure>
-			<Menu links={navLinks} />
+			<Menu links={navLinks} position={position} setPosition={setPosition} />
 			<ul className="hidden bg-[#F7F7FD] font-semibold py-4 px-[68px] text-[#3056D3] rounded-[50px] lg:flex grow justify-between max-w-[600px]">
 				{navLinks.map((link, i) => (
 					<li
@@ -23,7 +28,7 @@ const NavBar = () => {
 				))}
 			</ul>
 			<div className="hidden lg:flex flex-nowrap items-center space-x-3.5">
-				<SwitchLang />
+				<SwitchLang position={position} setPosition={setPosition} />
 				<button className="bg-[#3171DE] rounded-[42px] font-medium text-white py-[15px] px-9 md:py-[18px] md:px-[25px] md:rounded-[50px]">
 					Schedule a Call
 				</button>

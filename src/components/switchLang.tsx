@@ -1,6 +1,4 @@
-"use client";
-
-import * as React from "react";
+import { Dispatch, SetStateAction } from "react";
 
 import { Button } from "components/ui/button";
 import {
@@ -13,9 +11,13 @@ import {
 	DropdownMenuTrigger,
 } from "components/ui/dropdown-menu";
 
-export default function DropdownMenuRadioGroupDemo() {
-	const [position, setPosition] = React.useState("EN");
-
+export default function DropdownMenuRadioGroupDemo({
+	position,
+	setPosition,
+}: {
+	position: string;
+	setPosition: Dispatch<SetStateAction<string>>;
+}) {
 	return (
 		<DropdownMenu>
 			<DropdownMenuTrigger asChild>
