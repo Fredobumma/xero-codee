@@ -6,7 +6,7 @@ const Hero = () => {
 				<p className="font-semibold text-[#F3BC4C] text-xs sm:text-sm lg:text-xl">
 					TECH SERVICES
 				</p>
-				<h1 className="font-bold break-all text-pretty text-[40px] leading-[48px] mt-7 mb-[22px] min-[320px]:break-normal md:font-semibold md:text-[56px] lg:font-medium lg:text-[72px] lg:leading-[80px]">
+				<h1 className="font-bold break-all text-pretty text-[40px] leading-[48px] mt-7 mb-[22px] min-[320px]:break-normal md:font-semibold md:max-w-[500px] md:text-[56px] lg:font-medium lg:text-[72px] lg:leading-[80px]">
 					TechSynergy: Innovate, Create, Elevate
 				</h1>
 				<p className="font-medium text-sm sm:text-base lg:text-xl">

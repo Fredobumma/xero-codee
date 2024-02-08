@@ -1,10 +1,10 @@
-import { Hero } from "./sections";
 import "./App.css";
+import { NavBar } from "./sections";
 
 function App() {
 	return (
 		<>
-			<Hero />
+			<NavBar />
 		</>
 	);
 }

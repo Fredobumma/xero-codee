@@ -1,5 +1,7 @@
 {
 	"compilerOptions": {
+		"types": ["babel__generator"],
+		"typeRoots": ["node_modules/@types", "path/to/your/custom/types"],
 		"target": "ES2020",
 		"useDefineForClassFields": true,
 		"lib": ["ES2020", "DOM", "DOM.Iterable"],
@@ -20,7 +22,9 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
 		"paths": {
-			"src/*": ["./src/*"]
+			"src/*": ["./src/*"],
+			"components/*": ["./components/*"],
+			"lib/*": ["./lib/*"]
 		}
 	},
 	"include": ["src"],
