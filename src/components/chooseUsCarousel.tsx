@@ -43,7 +43,7 @@ export default function ChooseUsCarousel() {
 				{cards.map(({ title, description, colorStyles }, index) => (
 					<CarouselItem key={index} className="mx-2.5 my-10">
 						<div
-							className={`flex flex-col justify-center min-w-[282px] max-w-[282px] h-[168px] px-5 py-[27px] rounded-[25px] shadow-[0_6px_14px_rgba(0,0,0,0.13)] md:min-w-[385px] md:max-w-[385px] md:h-[230px] md:rounded-[35px] lg:px-7 lg:py-[33px] ${
+							className={`flex flex-col justify-center min-w-[282px] max-w-[282px] h-[168px] px-5 py-[27px] rounded-[25px] shadow-[0_4px_10px_rgba(0,0,0,0.13)] md:shadow-[0_6px_14px_rgba(0,0,0,0.13)] md:min-w-[385px] md:max-w-[385px] md:h-[230px] md:rounded-[35px] lg:px-7 lg:py-[33px] ${
 								colorStyles ? colorStyles : ""
 							}`}
 						>

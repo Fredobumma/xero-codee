@@ -1,10 +1,10 @@
 import "./App.css";
-import { ChooseUs } from "./sections";
+import { Empowering } from "./sections";
 
 function App() {
 	return (
 		<>
-			<ChooseUs />
+			<Empowering />
 		</>
 	);
 }
