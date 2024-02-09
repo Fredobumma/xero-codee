@@ -1,10 +1,10 @@
 import "./App.css";
-import { Testimonials } from "./sections";
+import { Crew } from "./sections";
 
 function App() {
 	return (
 		<>
-			<Testimonials />
+			<Crew />
 		</>
 	);
 }
