@@ -1,10 +1,10 @@
 import "./App.css";
-import { Crew } from "./sections";
+import { Sponsors } from "./sections";
 
 function App() {
 	return (
 		<>
-			<Crew />
+			<Sponsors />
 		</>
 	);
 }
