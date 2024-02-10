@@ -20,7 +20,7 @@ This is a simple landing page design and there were no challenges at all.
 
 ## Testing??
 
--- I have not used any functions in this simple landing page design so there was no need performing any tests. Again, from my from my experience one should never over engineer simple things.
+-- I have not used any functions in this simple landing page design so there was no need performing any tests. Again, from my experience one should never over engineer simple things.
 
 ## How to get this code
 
