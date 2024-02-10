@@ -29,7 +29,10 @@ const Footer = () => {
 	const navLinks = ["Terms", "Privacy", "Cookies"];
 
 	return (
-		<footer className="text-[#0A142F] divide-y divide-[#0A142F]/6 mt-28 pb-6 pt-16 sm:mt-40 sm:pb-0 sm:pt-[102px] space-y-[49px] md:mt-60 lg:-mb-5 lg:px-[133px]">
+		<footer
+			id="footer"
+			className="text-[#0A142F] divide-y divide-[#0A142F]/6 mt-28 pb-6 pt-16 sm:mt-40 sm:pb-0 sm:pt-[102px] space-y-[49px] md:mt-60 lg:-mb-5 lg:px-[133px]"
+		>
 			<div className="flex flex-wrap gap-[70px] sm:justify-center lg:justify-between">
 				{items.map(({ title, list }, i) => (
 					<div key={i}>

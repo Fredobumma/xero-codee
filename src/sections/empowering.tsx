@@ -18,15 +18,15 @@ const Empowering = () => {
 			description: (
 				<span>
 					Create{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						custom software
 					</a>{" "}
 					tailored for your unique needs, including{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						front-end
 					</a>
 					, and core{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						back-end
 					</a>{" "}
 					technology.
@@ -39,15 +39,15 @@ const Empowering = () => {
 			description: (
 				<span>
 					Create{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						custom software
 					</a>{" "}
 					tailored for your unique needs, including{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						front-end
 					</a>
 					, and core{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						back-end
 					</a>{" "}
 					technology.
@@ -60,7 +60,7 @@ const Empowering = () => {
 			description: (
 				<span>
 					Use leading{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						AI, machine learning
 					</a>
 					, and data engineering technologies to unlock business value.
@@ -73,7 +73,7 @@ const Empowering = () => {
 			description: (
 				<span>
 					Create beautiful, pixel-perfect, and easy-to-use{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						designs
 					</a>{" "}
 					that delight your end users.
@@ -86,15 +86,15 @@ const Empowering = () => {
 			description: (
 				<span>
 					Build performant, scalable, and secure{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						mobile applications
 					</a>{" "}
 					for{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						iOS
 					</a>{" "}
 					and{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						Android
 					</a>{" "}
 					devices.
@@ -108,11 +108,11 @@ const Empowering = () => {
 				<span>
 					Ensure applications are secure, fault tolerant and highly available
 					with our{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						DevOps
 					</a>{" "}
 					and{" "}
-					<a href={absoluteUrl} className="underline">
+					<a target="_blank" href={absoluteUrl} className="underline">
 						Security
 					</a>{" "}
 					engineers.
@@ -123,7 +123,10 @@ const Empowering = () => {
 	];
 
 	return (
-		<section className="pt-[35px] md:pt-16 md:pb-10 lg:py-32 lg:space-y-20">
+		<section
+			id="services"
+			className="pt-[35px] md:pt-16 md:pb-10 lg:py-32 lg:space-y-20"
+		>
 			<h2 className="lg:text-wrap max-w-[300px] sm:max-w-[600px] lg:max-w-[950px] mx-auto font-medium text-center text-2xl leading-[43px] md:text-[40px] md:leading-[60px]">
 				<span data-aos="fade-down" className="relative">
 					Empowering Your Digital Vision: Our Comprehensive Tech Services.
@@ -161,7 +164,7 @@ const Empowering = () => {
 						viewBox="0 0 65 60"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
-						className="absolute top-0 right-[105%] lg:hidden"
+						className="animate-pulse absolute top-0 right-[105%] lg:hidden"
 					>
 						<path
 							opacity="0.8"

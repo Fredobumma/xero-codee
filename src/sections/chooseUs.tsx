@@ -1,10 +1,13 @@
 import { ChooseUsCarousel } from "src/components";
 
 const ChooseUs = () => (
-	<section className="bg-[#F7F7FD] max-w-full mt-20 pt-[72px] pb-44 rounded-[35px] md:mb-10 lg:mb-[42px] lg:pb-52">
+	<section
+		id="about-us"
+		className="bg-[#F7F7FD] max-w-full mt-20 pt-[72px] pb-44 rounded-[35px] md:mb-10 lg:mb-[42px] lg:pb-52"
+	>
 		<h2 className="relative lg:text-wrap max-w-[950px] mx-auto font-medium text-center text-[26px] leading-[62px] md:text-[40px]">
 			Choose Us: Your Path to Innovation and{" "}
-			<span className="bg-clip-text bg-[linear-gradient(180deg,_#3171de_26%,_#4AC0F2_50%)] text-transparent">
+			<span className="animate-pulse bg-clip-text bg-[linear-gradient(180deg,_#3171de_26%,_#4AC0F2_50%)] text-transparent">
 				Success
 			</span>
 			<svg
