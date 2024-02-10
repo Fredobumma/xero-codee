@@ -9,7 +9,7 @@ This is a simple landing page design and there were no challenges at all.
 
 ## Design decisions
 
--- For a simple landing page, I have decided to use reactTs and not next so as to `js KISS(keep It Simple, Stupid) ` and not over engineer a simple app.
+-- For a simple landing page, I have decided to use reactTs and not next so as to `KISS(keep It Simple, Stupid) ` and not over engineer a simple app.
 
 -- TailwindCss for styling and a few animations.
 
