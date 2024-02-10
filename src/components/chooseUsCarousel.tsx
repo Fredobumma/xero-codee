@@ -79,8 +79,8 @@ export default function ChooseUsCarousel() {
 						y2="81.3877"
 						gradientUnits="userSpaceOnUse"
 					>
-						<stop stop-color="#3171DE" />
-						<stop offset="1" stop-color="#4AC0F2" />
+						<stop stopColor="#3171DE" />
+						<stop offset="1" stopColor="#4AC0F2" />
 					</linearGradient>
 				</defs>
 			</svg>

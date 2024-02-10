@@ -1,6 +1,6 @@
 const Hero = () => {
 	return (
-		<header className="relative bg-cover bg-[url('/src/assets/hero-bg.webp')] bg-center bg-no-repeat h-auto -mx-4 pt-12 px-6 rounded-[34px] shadow-[rgba(17,17,26,0.1)_0px_4px_16px,_rgba(17,17,26,0.05)_0px_8px_32px] text-white sm:-mx-6 sm:px-8 md:bg-[url('/src/assets/hero.webp')] md:bg-[length:70%_100%] md:bg-right md:bg-clip-border md:mr-0 md:py-10 md:shadow-none md:text-inherit md:rounded-none md:rounded-r-[34px] lg:bg-[length:70%_90%] lg:py-14 xl:py-20 xl:bg-[length:70%_100%]">
+		<header className="relative bg-cover bg-[url('/src/assets/hero-bg.webp')] bg-center bg-no-repeat h-auto -mt-2.5 -mx-4 pt-12 px-6 rounded-[34px] shadow-[rgba(17,17,26,0.1)_0px_4px_16px,_rgba(17,17,26,0.05)_0px_8px_32px] text-white -z-20 sm:-mx-6 sm:px-8 md:bg-[url('/src/assets/hero.webp')] md:bg-[length:70%_100%] md:bg-right md:bg-clip-border md:mr-0 md:mt-0 md:py-10 md:shadow-none md:text-inherit md:rounded-none md:rounded-r-[34px] lg:bg-[length:70%_90%] lg:py-14 xl:py-20 xl:bg-[length:70%_100%]">
 			<div className="hidden md:block absolute inset-0 bg-[linear-gradient(95deg,_rgba(255,255,255,1)_60%,_rgba(0,0,0,0)_95%)] w-2/3" />
 			<div className="md:relative md:z-10 md:w-1/2">
 				<p className="font-semibold text-[#F3BC4C] text-xs sm:text-sm lg:text-xl">
@@ -16,21 +16,6 @@ const Hero = () => {
 					See projects
 				</button>
 			</div>
-			{/* <picture className="hidden md:block">
-				<source srcSet={hero_png} media="(min-width: 768px)" type="image/png" />
-				<source
-					srcSet={hero_webp}
-					media="(min-width: 768px)"
-					type="image/webp"
-				/>
-				<img
-					src={hero_png}
-					alt="Call to action"
-					width={1102}
-					height={679}
-					className="w-auto mx-auto"
-				/>
-			</picture> */}
 		</header>
 	);
 };

@@ -23,7 +23,7 @@ const Teams = () => {
 	];
 
 	return (
-		<section className="mb-[34px] mt-[42px] pb-7 lg:py-[72px] space-y-[45px]">
+		<section className="mb-[34px] mt-[42px] pb-7 lg:my-0 lg:py-[72px] space-y-[45px]">
 			<p className="font-medium text-2xl leading-[43px] sm:text-center lg:text-[32px] lg:leading-[60px]">
 				We have multidisciplinary teams to meet any{" "}
 				<span className="bg-clip-text bg-[linear-gradient(180deg,_#704af2_26%,_#3171de_50%)] text-transparent">

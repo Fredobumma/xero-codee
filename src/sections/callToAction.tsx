@@ -7,7 +7,7 @@ import {
 
 const CallToAction = () => (
 	<section>
-		<div className="bg-callToAction max-w-[1344px] pb-[132px] pt-28 px-3.5 relative rounded-[35px] sm:pb-[295px]">
+		<div className="bg-callToAction max-w-[1344px] mt-6 pb-[132px] pt-28 px-3.5 relative rounded-[35px] sm:pb-[295px] md:mt-8 lg:mt-10">
 			<h2 className="font-semibold text-center text-white text-[32px] leading-[48px] lg:text-5xl lg:leading-[68px]">
 				Ready to Transform Your Vision into Reality? Let's Get Started!
 			</h2>

@@ -29,7 +29,7 @@ const Footer = () => {
 	const navLinks = ["Terms", "Privacy", "Cookies"];
 
 	return (
-		<footer className="text-[#0A142F] divide-y divide-[#0A142F]/6 pb-[42px] pt-16 sm:pt-[102px] space-y-[49px] lg:px-[133px]">
+		<footer className="text-[#0A142F] divide-y divide-[#0A142F]/6 mt-28 pb-6 pt-16 sm:mt-40 sm:pb-0 sm:pt-[102px] space-y-[49px] md:mt-60 lg:-mb-5 lg:px-[133px]">
 			<div className="flex flex-wrap gap-[70px] sm:justify-center lg:justify-between">
 				{items.map(({ title, list }, i) => (
 					<div key={i}>
@@ -68,8 +68,8 @@ const Footer = () => {
 										xmlns="http://www.w3.org/2000/svg"
 									>
 										<path
-											fill-rule="evenodd"
-											clip-rule="evenodd"
+											fillRule="evenodd"
+											clipRule="evenodd"
 											d="M10.6419 13.3047L16.8249 7.6652C17.3942 7.14567 17.3942 6.30357 16.8249 5.78564L10.6419 0.146151L8.58072 2.02691L12.2754 5.39609H0.548676L0.548676 8.05435H12.2754L8.58072 11.4247L10.6419 13.3047Z"
 											fill="white"
 										/>
@@ -105,8 +105,8 @@ const Footer = () => {
 					</a>
 				</figure>
 				<ul className="inline-flex gap-11">
-					{navLinks.map((link) => (
-						<li className="text-sm">
+					{navLinks.map((link, i) => (
+						<li className="text-sm" key={i}>
 							<a href="#">{link}</a>
 						</li>
 					))}

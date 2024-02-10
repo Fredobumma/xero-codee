@@ -12,13 +12,16 @@ const Sponsors = () => {
 	];
 
 	const renderLogos = logos.map(({ name, icon }, i) => (
-		<figure key={i} className="scale-90 lg:mx-[30px] lg:scale-100 xl:mx-10">
+		<figure
+			key={i}
+			className="scale-90 lg:mx-[30px] lg:scale-100 xl:mx-10 min-[1440px]:mx-[50px]"
+		>
 			<img src={icon} alt={`${name} Logo`} width="auto" height="auto" />
 		</figure>
 	));
 
 	return (
-		<section className="relative bg-[#F7F7FD] mt-[17px] pb-[52px] pt-[65px] px-[18px] rounded-[14px] text-center sm:rounded-[35px] md:mt-[100px] md:pb-12 md:pt-[77px]">
+		<section className="relative bg-[#F7F7FD] mb-16 mt-[17px] pb-[52px] pt-[65px] px-[18px] rounded-[14px] text-center sm:rounded-[35px] md:mb-20 md:mt-5 md:pb-12 md:pt-[77px] lg:my-[100px]">
 			<h2 className="font-medium text-[26px] leading-10 md:text-[40px] md:leading-[60px]">
 				Trusted by Leading Organizations
 			</h2>
@@ -58,8 +61,8 @@ const Sponsors = () => {
 						y2="81.3877"
 						gradientUnits="userSpaceOnUse"
 					>
-						<stop stop-color="#62AE6E" />
-						<stop offset="1" stop-color="#EDE14F" />
+						<stop stopColor="#62AE6E" />
+						<stop offset="1" stopColor="#EDE14F" />
 					</linearGradient>
 				</defs>
 			</svg>

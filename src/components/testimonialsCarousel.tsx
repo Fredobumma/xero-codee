@@ -108,13 +108,13 @@ export default function TestimonialsCarousel() {
 						y2="175.005"
 						gradientUnits="userSpaceOnUse"
 					>
-						<stop stop-color="#3171DE" />
-						<stop offset="1" stop-color="#4AC0F2" />
+						<stop stopColor="#3171DE" />
+						<stop offset="1" stopColor="#4AC0F2" />
 					</linearGradient>
 				</defs>
 			</svg>
-			<CarouselPrevious className="top-[450px] mx-auto inset-x-0 right-20 md:top-[700px]" />
-			<CarouselNext className="top-[450px] mx-auto inset-x-0 left-20 md:top-[700px]" />
+			<CarouselPrevious className="bg-[#F7F7FD] top-[450px] mx-auto inset-x-0 right-20 md:top-[700px]" />
+			<CarouselNext className="bg-[#F7F7FD] top-[450px] mx-auto inset-x-0 left-20 md:top-[700px]" />
 		</Carousel>
 	);
 }

@@ -123,7 +123,7 @@ const Empowering = () => {
 	];
 
 	return (
-		<section className="pt-[35px] pb-[52px] md:pt-16 md:pb-20 lg:py-32 lg:space-y-20">
+		<section className="pt-[35px] md:pt-16 md:pb-10 lg:py-32 lg:space-y-20">
 			<h2 className="lg:text-wrap max-w-[300px] sm:max-w-[600px] lg:max-w-[950px] mx-auto font-medium text-center text-2xl leading-[43px] md:text-[40px] md:leading-[60px]">
 				<span className="relative">
 					Empowering Your Digital Vision: Our Comprehensive Tech Services.
@@ -150,8 +150,8 @@ const Empowering = () => {
 								y2="81.3877"
 								gradientUnits="userSpaceOnUse"
 							>
-								<stop stop-color="#3171DE" />
-								<stop offset="1" stop-color="#4AC0F2" />
+								<stop stopColor="#3171DE" />
+								<stop offset="1" stopColor="#4AC0F2" />
 							</linearGradient>
 						</defs>
 					</svg>
@@ -177,8 +177,8 @@ const Empowering = () => {
 								y2="59.8772"
 								gradientUnits="userSpaceOnUse"
 							>
-								<stop stop-color="#3171DE" />
-								<stop offset="1" stop-color="#4AC0F2" />
+								<stop stopColor="#3171DE" />
+								<stop offset="1" stopColor="#4AC0F2" />
 							</linearGradient>
 						</defs>
 					</svg>
@@ -238,8 +238,8 @@ const Empowering = () => {
 							y2="175.005"
 							gradientUnits="userSpaceOnUse"
 						>
-							<stop stop-color="#62AE6E" />
-							<stop offset="1" stop-color="#EDE14F" />
+							<stop stopColor="#62AE6E" />
+							<stop offset="1" stopColor="#EDE14F" />
 						</linearGradient>
 					</defs>
 				</svg>
@@ -265,8 +265,8 @@ const Empowering = () => {
 							y2="175.005"
 							gradientUnits="userSpaceOnUse"
 						>
-							<stop stop-color="#3171DE" />
-							<stop offset="1" stop-color="#4AC0F2" />
+							<stop stopColor="#3171DE" />
+							<stop offset="1" stopColor="#4AC0F2" />
 						</linearGradient>
 					</defs>
 				</svg>

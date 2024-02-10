@@ -18,8 +18,8 @@ const Crew = () => {
 	return (
 		<section className="text-center py-[66px] lg:py-[90px]">
 			<div className="relative flex flex-wrap justify-center w-fit mx-auto">
-				{crewMembers.map(({ role, img }) => (
-					<figure className="-mx-5 lg:-mx-[30px]">
+				{crewMembers.map(({ role, img }, i) => (
+					<figure className="-mx-5 lg:-mx-[30px]" key={i}>
 						<img
 							src={img}
 							width={209}
@@ -56,8 +56,8 @@ const Crew = () => {
 							y2="116.826"
 							gradientUnits="userSpaceOnUse"
 						>
-							<stop stop-color="#62AE6E" />
-							<stop offset="1" stop-color="#EDE14F" />
+							<stop stopColor="#62AE6E" />
+							<stop offset="1" stopColor="#EDE14F" />
 						</linearGradient>
 					</defs>
 				</svg>
@@ -84,8 +84,8 @@ const Crew = () => {
 							y2="116.826"
 							gradientUnits="userSpaceOnUse"
 						>
-							<stop stop-color="#3171DE" />
-							<stop offset="1" stop-color="#4AC0F2" />
+							<stop stopColor="#3171DE" />
+							<stop offset="1" stopColor="#4AC0F2" />
 						</linearGradient>
 					</defs>
 				</svg>

@@ -10,7 +10,7 @@ const NavBar = () => {
 	const navLinks = ["Home", "About us", "Services", "Contact Us"];
 
 	return (
-		<nav className="flex gap-10 justify-between items-center mt-2 sm:mt-0 md:-mt-2 lg:-mt-6">
+		<nav className="bg-white flex gap-10 justify-between items-center mt-2 -mx-4 pb-6 px-4 sm:mt-0 sm:-mx-6 sm:px-6 md:-mt-2 md:mx-0 md:px-0 lg:-mt-6">
 			<figure>
 				<a href="/">
 					<img src={logo} alt="App logo" width="auto" height="auto" />
