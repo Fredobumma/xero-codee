@@ -1,13 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 import { logo } from "src/assets";
 import { Menu, SwitchLang } from "src/components";
 
 const NavBar = () => {
+	const { t } = useTranslation();
 	const [position, setPosition] = useState("EN");
-	const navLinks = ["Home", "About us", "Services", "Contact Us"];
+	const navLinks = ["home", "aboutUs", "services", "contactUs"];
 
 	return (
 		<nav className="bg-white flex gap-10 justify-between items-center mt-2 -mx-4 pb-6 px-4 sm:mt-0 sm:-mx-6 sm:px-6 md:-mt-2 md:mx-0 md:px-0 lg:-mt-6">
@@ -23,7 +25,7 @@ const NavBar = () => {
 						key={i}
 						className="transition ease-in-out duration-300 hover:scale-95 focus:scale-95"
 					>
-						<a href="#">{link}</a>
+						<a href="#">{t(link)}</a>
 					</li>
 				))}
 			</ul>

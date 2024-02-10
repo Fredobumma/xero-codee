@@ -1,4 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
+import i18n from "i18next";
 
 import { Button } from "components/ui/button";
 import {
@@ -45,7 +46,13 @@ export default function DropdownMenuRadioGroupDemo({
 			<DropdownMenuContent className="w-56">
 				<DropdownMenuLabel>{position}</DropdownMenuLabel>
 				<DropdownMenuSeparator />
-				<DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
+				<DropdownMenuRadioGroup
+					value={position}
+					onValueChange={(value) => {
+						setPosition(value);
+						i18n.changeLanguage(value.toLowerCase());
+					}}
+				>
 					<DropdownMenuRadioItem value="EN">English</DropdownMenuRadioItem>
 					<DropdownMenuRadioItem value="GE">German</DropdownMenuRadioItem>
 					<DropdownMenuRadioItem value="FR">French</DropdownMenuRadioItem>
