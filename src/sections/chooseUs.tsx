@@ -13,7 +13,7 @@ const ChooseUs = () => (
 				viewBox="0 0 90 82"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
-				className="hidden absolute top-0 -right-20 xl:block"
+				className="animate-pulse hidden absolute top-0 -right-20 xl:block"
 			>
 				<path
 					opacity="0.8"

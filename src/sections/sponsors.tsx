@@ -36,7 +36,7 @@ const Sponsors = () => {
 					{renderLogos}
 				</Marquee>
 			</div>
-			<button className="bg-[#3171DE] mt-[50px] rounded-[42px] font-medium text-white py-[15px] px-[25px] md:py-[18px] md:px-[34px] md:rounded-[50px]">
+			<button className="bg-[#3171DE] mt-[50px] rounded-[42px] font-medium text-white py-[15px] px-[25px] md:py-[18px] md:px-[34px] md:rounded-[50px] transition ease-in-out duration-300 hover:scale-95 focus:scale-95">
 				Our full repertorie
 			</button>
 			<svg
@@ -45,7 +45,7 @@ const Sponsors = () => {
 				viewBox="0 0 90 82"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
-				className="absolute w-9 top-[15px] left-4 sm:top-10 sm:left-10 lg:top-[36px] lg:left-[44px] lg:w-auto"
+				className="animate-pulse absolute w-9 top-[15px] left-4 sm:top-10 sm:left-10 lg:top-[36px] lg:left-[44px] lg:w-auto"
 			>
 				<path
 					opacity="0.8"

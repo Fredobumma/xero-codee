@@ -50,7 +50,7 @@ export default function TestimonialsCarousel() {
 				{cards.map(
 					({ title, description, icon, testimonyBy, position }, index) => (
 						<CarouselItem key={index} className="mx-2.5 my-10">
-							<div className="bg-white font-['DM_Sans'] max-w-[260px] p-[22px] rounded-[14px] shadow-[0px_2px_6px_rgba(13,10,44,0.06)] text-[#1E1B39] md:max-w-[389px] md:p-[34px] md:rounded-[22px] md:shadow-[0px_3px_9px_rgba(13,10,44,0.06)]">
+							<div className="flex flex-col bg-white font-['DM_Sans'] h-full max-w-[260px] p-[22px] rounded-[14px] shadow-[0px_2px_6px_rgba(13,10,44,0.06)] text-[#1E1B39] md:max-w-[389px] md:p-[34px] md:rounded-[22px] md:shadow-[0px_3px_9px_rgba(13,10,44,0.06)]">
 								<ul className="inline-flex">
 									{Array.from({ length: 5 }).map((_item, i) => (
 										<li key={i}> ⭐ </li>
@@ -59,10 +59,10 @@ export default function TestimonialsCarousel() {
 								<h3 className="font-bold leading-6 mb-1.5 mt-[23px] md:text-2xl md:leading-9 md:mb-[9px] md:mt-[35px]">
 									{title}
 								</h3>
-								<p className="text-[11px] leading-5 text-[#6E6C83] md:text-lg md:!leading-[30px]">
+								<p className="text-[11px] leading-5 text-[#6E6C83] mb-[23px] md:mb-[35px] md:text-lg md:!leading-[30px]">
 									{description}
 								</p>
-								<div className="flex items-center gap-4 border-t border-[#DEDEE9] mt-[23px] pt-[11px] md:gap-[18px] md:mt-[35px] md:pt-5">
+								<div className="flex items-center gap-4 border-t border-[#DEDEE9] mt-auto pt-[11px] md:gap-[18px] md:mt-auto md:pt-5">
 									<figure>
 										<img
 											src={icon}
@@ -113,8 +113,8 @@ export default function TestimonialsCarousel() {
 					</linearGradient>
 				</defs>
 			</svg>
-			<CarouselPrevious className="bg-[#F7F7FD] top-[450px] mx-auto inset-x-0 right-20 md:top-[700px]" />
-			<CarouselNext className="bg-[#F7F7FD] top-[450px] mx-auto inset-x-0 left-20 md:top-[700px]" />
+			<CarouselPrevious className="bg-[#F7F7FD] top-[500px] mx-auto inset-x-0 right-20 md:top-[750px]" />
+			<CarouselNext className="bg-[#F7F7FD] top-[500px] mx-auto inset-x-0 left-20 md:top-[750px]" />
 		</Carousel>
 	);
 }

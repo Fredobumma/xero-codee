@@ -40,7 +40,7 @@ const Crew = () => {
 					viewBox="0 0 128 117"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
-					className="hidden lg:block absolute -left-[12%] top-[25%] -z-10"
+					className="animate-pulse hidden lg:block absolute -left-[12%] top-[25%] -z-10"
 				>
 					<path
 						opacity="0.8"
@@ -68,7 +68,7 @@ const Crew = () => {
 					viewBox="0 0 128 117"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
-					className="hidden lg:block absolute -right-[13%] top-[15%] -z-10"
+					className="animate-pulse hidden lg:block absolute -right-[13%] top-[15%] -z-10"
 				>
 					<path
 						opacity="0.8"
@@ -93,7 +93,7 @@ const Crew = () => {
 			<h2 className="font-medium my-4 text-[26px] leading-[62px] md:text-[40px] md:my-[57px]">
 				Let's Form Your Crew.
 			</h2>
-			<button className="bg-[#3171DE] rounded-[42px] font-medium text-white py-[15px] px-[19px] md:py-[18px] md:px-[25px] md:rounded-[50px]">
+			<button className="bg-[#3171DE] rounded-[42px] font-medium text-white py-[15px] px-[19px] md:py-[18px] md:px-[25px] md:rounded-[50px] transition ease-in-out duration-300 hover:scale-95 focus:scale-95">
 				Schedule a Call
 			</button>
 		</section>

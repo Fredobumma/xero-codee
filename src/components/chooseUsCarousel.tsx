@@ -63,7 +63,7 @@ export default function ChooseUsCarousel() {
 				viewBox="0 0 90 82"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
-				className="absolute left-40 top-[350px] hidden xl:block"
+				className="absolute animate-pulse left-40 top-[350px] hidden xl:block"
 			>
 				<path
 					opacity="0.8"

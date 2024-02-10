@@ -15,7 +15,7 @@ const Menu = ({
 	position,
 	setPosition,
 }: {
-	links: string[];
+	links: { title: string; path: string }[];
 	position: string;
 	setPosition: Dispatch<SetStateAction<string>>;
 }) => {
@@ -34,12 +34,12 @@ const Menu = ({
 				>
 					<SheetClose asChild>
 						<ul className="bg-[#F7F7FD] font-semibold py-4 space-y-5 text-center text-[#3056D3] rounded-2xl">
-							{links.map((link, i) => (
+							{links.map(({ title, path }, i) => (
 								<li
 									key={i}
 									className="transition ease-in-out duration-300 hover:scale-95 focus:scale-95"
 								>
-									<a href="#">{t(link)}</a>
+									<a href={path}>{t(title)}</a>
 								</li>
 							))}
 						</ul>
@@ -48,7 +48,7 @@ const Menu = ({
 					<div className="flex flex-col items-center gap-y-3.5">
 						<SwitchLang position={position} setPosition={setPosition} />
 						<SheetClose asChild>
-							<button className="bg-[#3171DE] rounded-[42px] font-medium text-white py-[15px] px-9 md:py-[18px] md:px-[25px] md:rounded-[50px]">
+							<button className="bg-[#3171DE] rounded-[42px] font-medium text-white py-[15px] px-9 md:py-[18px] md:px-[25px] md:rounded-[50px] transition ease-in-out duration-300 hover:scale-95 focus:scale-95">
 								Schedule a Call
 							</button>
 						</SheetClose>

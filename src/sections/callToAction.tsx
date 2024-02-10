@@ -8,10 +8,14 @@ import {
 const CallToAction = () => (
 	<section>
 		<div className="bg-callToAction max-w-[1344px] mt-6 pb-[132px] pt-28 px-3.5 relative rounded-[35px] sm:pb-[295px] md:mt-8 lg:mt-10">
-			<h2 className="font-semibold text-center text-white text-[32px] leading-[48px] lg:text-5xl lg:leading-[68px]">
+			<h2
+				data-aos="flip-left"
+				data-aos-duration="2000"
+				className="font-semibold text-center text-white text-[32px] leading-[48px] lg:text-5xl lg:leading-[68px]"
+			>
 				Ready to Transform Your Vision into Reality? Let's Get Started!
 			</h2>
-			<button className="block bg-white font-semibold mt-[42px] mx-auto rounded-[50px] text-[#5E5DEF] py-[18px] px-[25px]">
+			<button className="block bg-white font-semibold mt-[42px] mx-auto rounded-[50px] text-[#5E5DEF] py-[18px] px-[25px] transition ease-in-out duration-300 hover:scale-95 focus:scale-95">
 				Schedule a Call
 			</button>
 			<picture className="absolute -bottom-28 inset-x-0 mx-auto sm:-bottom-40 md:-bottom-60">

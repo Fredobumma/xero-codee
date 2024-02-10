@@ -1,5 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import AOS from "aos";
 
 import {
 	CallToAction,
@@ -13,8 +14,12 @@ import {
 	Teams,
 	Testimonials,
 } from "./sections";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 import "./App.css";
 
+AOS.init(); // Initialize animate on scroll
+
+// add translations
 const translationsEn = {
 	home: "Home",
 	aboutUs: "About Us",
@@ -40,8 +45,9 @@ const translationsEs = {
 	contactUs: "Contacto",
 };
 
+// initialize translation
 i18n
-	.use(initReactI18next) // passes i18n down to react-i18next
+	.use(initReactI18next) // passes i18n down to react-i18next using the middleware
 	.init({
 		resources: {
 			en: { translation: translationsEn },
@@ -72,3 +78,4 @@ function App() {
 }
 
 export default App;
+// App landing page component

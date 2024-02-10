@@ -125,7 +125,7 @@ const Empowering = () => {
 	return (
 		<section className="pt-[35px] md:pt-16 md:pb-10 lg:py-32 lg:space-y-20">
 			<h2 className="lg:text-wrap max-w-[300px] sm:max-w-[600px] lg:max-w-[950px] mx-auto font-medium text-center text-2xl leading-[43px] md:text-[40px] md:leading-[60px]">
-				<span className="relative">
+				<span data-aos="fade-down" className="relative">
 					Empowering Your Digital Vision: Our Comprehensive Tech Services.
 					{/* Svg background vectors */}
 					<svg
@@ -134,7 +134,7 @@ const Empowering = () => {
 						viewBox="0 0 90 82"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
-						className="hidden absolute top-0 right-[105%] lg:block"
+						className="animate-pulse hidden absolute top-0 right-[105%] lg:block"
 					>
 						<path
 							opacity="0.8"

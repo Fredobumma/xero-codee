@@ -32,10 +32,18 @@ const Testimonials = () => {
 					/>
 				</picture>
 				<div className="max-w-[85vw] mx-auto mt-[38px] mb-[45px] space-y-[18px] text-center md:space-y-6 lg:max-w-[560px] lg:mx-0 lg:mt-10 lg:space-y-[38px] lg:text-left">
-					<h2 className="font-medium text-[26px] leading-10 md:text-[40px] md:leading-[54px]">
+					<h2
+						data-aos="fade-left"
+						data-aos-delay="50"
+						className="font-medium text-[26px] leading-10 md:text-[40px] md:leading-[54px]"
+					>
 						We've stopped counting. Over 500 brands count on us.
 					</h2>
-					<p className="text-[#525252] font-medium text-xs leading-3 md:text-xl md:leading-[25px]">
+					<p
+						data-aos="fade-left"
+						data-aos-delay="60"
+						className="text-[#525252] font-medium text-xs leading-3 md:text-xl md:leading-[25px]"
+					>
 						Our 4,000+ team has expertise in almost everyprogramming language.
 					</p>
 				</div>
