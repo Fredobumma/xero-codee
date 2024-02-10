@@ -26,7 +26,7 @@ This is a simple landing page design and there were no challenges at all.
 
 ```js
 
-step1: git clone `https://github.com/Fredobumma/xero-codee-fe-task.git`
+step1: git clone https://github.com/Fredobumma/xero-codee-fe-task.git
 
 step2: cd xero-codee-fe-task
 
@@ -34,11 +34,33 @@ step3: yarn install or npm i or pnpm install
 
 step4: yarn dev or npm run dev or pnpm dev
 
-step5: open `http://localhost:3000` with your browser.
+step5: open http://localhost:3000 with your browser.
 
 ```
 
 ## Lighthouse test
+
+-- Desktop
+
+```js
+
+Performance: 99
+Accessibility: 88
+Best Practices: 100
+SEO: 90
+
+```
+
+-- Mobile
+
+```js
+
+Performance: 82
+Accessibility: 81
+Best Practices: 96
+SEO: 83
+
+```
 
 ## Link to demo
 
