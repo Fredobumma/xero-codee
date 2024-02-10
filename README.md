@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# Xero-codee FE task using React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Start date: February 6th, 2024.
+End date: Deadline day (February 10th) 2024.
 
-Currently, two official plugins are available:
+## Challenges faced
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a simple landing page design and there were no challenges at all.
 
-## Expanding the ESLint configuration
+## Design decisions
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+-- For a simple landing page, I have decided to use reactTs and not next so as to `js KISS(keep It Simple, Stupid) ` and not over engineer a simple app.
 
-- Configure the top-level `parserOptions` property like this:
+-- TailwindCss for styling and a few animations.
+
+-- Animate on Scroll library for scroll animations.
+
+-- Shadcn UI for carousel, mobile menu and translate dropdown.
+(This is NOT a component library. It's a collection of re-usable components that you can copy and paste into your apps). I have used this to have DRY(Don't Repeat Yourself) code
+
+## Testing??
+
+-- I have not used any functions in this simple landing page design so there was no need performing any tests. Again, from my from my experience one should never over engineer simple things.
+
+## How to get this code
 
 ```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+step1: git clone `https://github.com/Fredobumma/xero-codee-fe-task.git`
+
+step2: cd xero-codee-fe-task
+
+step3: yarn install or npm i or pnpm install
+
+step4: yarn dev or npm run dev or pnpm dev
+
+step5: open `http://localhost:3000` with your browser.
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Lighthouse test
+
+## Link to demo
+
+`https://xero-codee-fe-task-by-fred.vercel.app`
