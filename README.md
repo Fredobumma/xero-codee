@@ -9,14 +9,14 @@ This is a simple landing page design and there were no challenges at all.
 
 ## Design decisions
 
--- For a simple landing page, I have decided to use reactTs and not next so as to `KISS(keep It Simple, Stupid) ` and not over engineer a simple app.
+-- For a simple landing page, I have decided to use reactTs and not next so as to `KISS(keep It Simple, Stupid)` and not over engineer a simple app.
 
 -- TailwindCss for styling and a few animations.
 
 -- Animate on Scroll library for scroll animations.
 
 -- Shadcn UI for carousel, mobile menu and translate dropdown.
-(This is NOT a component library. It's a collection of re-usable components that you can copy and paste into your apps). I have used this to have DRY(Don't Repeat Yourself) code
+(This is NOT a component library. It's a collection of re-usable components that you can copy and paste into your apps). I have used this to have `DRY(Don't Repeat Yourself)` code
 
 ## Testing??
 
