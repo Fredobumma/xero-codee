@@ -65,3 +65,7 @@ SEO: 83
 ## Link to demo
 
 `https://xero-codee-fe-task-by-fred.vercel.app`
+
+## Figma link
+
+`https://www.figma.com/file/V1wIln9JWvQIA1hMUmvizg/Frontend-Hiring-(Copy)?type=design&node-id=0-149&mode=design&t=vFaMRpwOa0HjqCBZ-0`
